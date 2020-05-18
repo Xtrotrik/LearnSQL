@@ -1,0 +1,26 @@
+1> TO CREATE DATABASE 
+- CREATE DATABASE [database_name]
+
+2> TO CREATE TABLE
+- CREATE TABLE [table_name](
+[COLUMN NAME] [datatype(length)] [null/not null] [default_value] [auto_increment]
+);
+
+3>TO ADD COLUMN TO EXISTING TABLE
+-ALTER TABLE [table_name]
+ADD [COLUMN-NAME] [datatype(length)] [null/not null] [default_value] [auto_increment]
+
+4> TO MODIFY COLUMN FROM EXISTING TABLE 
+- ALTER TABLE [table_name]
+MODIFY COLUMN [COLUMN-NAME] [datatype(length)] [null/not null] [default_value] [auto_increment]
+
+5> TO DELETE COLUMN FROM EXISTING TABLE
+-ALTER TABLE [table_name]
+DROP COLUMN [COLUMN-NAME]
+
+6> TO UPDATE FIELD DETAILS
+-UPDATE [TABLE] SET [FIELD_NAME]='' WHERE [FIELD_NAME]=''
+
+7> TO ADD CONSTRAINT 
+- ALTER TABLE [table_name]
+ADD [CONSTRANT] [FIELD_NAME]
